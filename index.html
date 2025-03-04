@@ -68,13 +68,13 @@
 </head>
 <body>
 <div class="container">
-    <img src=".idea/assets/shopee-logo.png" height="120" width="120"/>
-    <h1>系統繁忙中，正在載入…</h1>
-    <p>請稍等，我們正在全力維護，讓您盡快恢復購物體驗！</p>
+    <img src=".idea/assets/shopeeelogo.png" height="120" width="180"/>
+    <h1>系統繁忙中，正在整理您的購物頁面…</h1>
+    <p>請稍候，我們正在努力修復中！</p>
     <div class="progress-bar">
         <div class="progress-bar-inner"></div>
     </div>
-    <p class="loading-text">請稍等片刻...</p>
+    <p class="loading-text">Loading...</p>
 </div>
 
 <script>
@@ -84,7 +84,7 @@
 
         setInterval(() => {
             dots = (dots + 1) % 4;
-            loadingText.textContent = "Loading" + ".".repeat(dots);
+            loadingText.textContent = "請稍等片刻" + ".".repeat(dots);
         }, 500);
     });
 </script>
