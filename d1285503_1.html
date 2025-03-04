@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee 當機等候頁面</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <img src="shopee-logo.png" alt="Shopee Logo" class="logo">
+    <h1>系統維護中</h1>
+    <p>蝦小編正在努力修復系統，請稍後再試！</p>
+
+    <div class="progress-bar">
+        <div class="progress-bar-inner"></div>
+    </div>
+
+    <p class="countdown">預計恢復時間：<span id="timer">30</span> 秒</p>
+
+    <button onclick="reloadPage()">重新整理</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
